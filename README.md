@@ -61,11 +61,25 @@ npm run dev
 malabinextjs/
 ├── src/
 │   ├── app/          # App Router pages and layouts
-│   └── lib/          # Utility functions and configurations
+│   ├── components/   # React components
+│   ├── lib/          # Utility functions and configurations
+│   └── types/        # TypeScript definitions
 ├── public/           # Static assets
+├── docs/             # Project documentation
 ├── components.json   # shadcn/ui configuration
 └── package.json      # Dependencies and scripts
 ```
+
+## 📚 Documentation
+
+Comprehensive documentation is available in the `docs/` directory:
+
+- **[🎨 Design System](docs/DESIGN.md)** - Design tokens, components, and styling guidelines
+- **[🚀 Performance Guide](docs/PERFORMANCE.md)** - Optimization strategies and best practices
+- **[🔗 Integrations](docs/INTEGRATIONS.md)** - WhatsApp, Analytics, and third-party services
+- **[🛠️ Development Workflow](docs/DEVELOPMENT.md)** - Setup, coding standards, and Claude Code commands
+- **[🌐 Deployment Guide](docs/DEPLOYMENT.md)** - Production checklist and deployment procedures
+- **[📝 Changelog](CHANGELOG.md)** - Version history and release notes
 
 ## shadcn/ui Configuration
 

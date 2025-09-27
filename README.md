@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Malabi E-commerce Website
+
+A modern e-commerce website built with Next.js for selling delicious malabi desserts.
+
+## Tech Stack
+
+- **Next.js 15.5.4** - React framework with App Router and Turbopack
+- **React 19.1.0** - Frontend library
+- **TypeScript** - Type-safe development
+- **Tailwind CSS v4** - Utility-first CSS framework
+- **shadcn/ui** - Beautifully designed components
+- **Lucide React** - Beautiful & consistent icon pack
+- **class-variance-authority** - Creating type-safe component variants
+
+## Features
+
+- 🛒 E-commerce functionality for malabi products
+- 🎨 Modern UI with shadcn/ui components
+- 📱 Responsive design with Tailwind CSS
+- ⚡ Fast development with Turbopack
+- 🔒 Type-safe with TypeScript
+- 🎯 Component-based architecture
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd malabinextjs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build the application for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+malabinextjs/
+├── src/
+│   ├── app/          # App Router pages and layouts
+│   └── lib/          # Utility functions and configurations
+├── public/           # Static assets
+├── components.json   # shadcn/ui configuration
+└── package.json      # Dependencies and scripts
+```
 
-## Deploy on Vercel
+## shadcn/ui Configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project uses shadcn/ui with the following configuration:
+- **Style**: New York
+- **Base Color**: Neutral
+- **CSS Variables**: Enabled
+- **Icon Library**: Lucide React
+- **RSC**: Enabled
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Development
+
+The project is set up with:
+- TypeScript for type safety
+- ESLint for code linting
+- Tailwind CSS for styling
+- Component aliases configured in `tsconfig.json`
+
+## Contributing
+
+1. Create a feature branch
+2. Make your changes
+3. Test thoroughly
+4. Submit a pull request
+
+## License
+
+Private project for malabi e-commerce website.
